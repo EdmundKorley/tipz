@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/HpldBoB.gifv' title='Tipz Video Walkthrough' width='' alt='Tipz Video Walkthrough' />
+![Imgur](http://i.imgur.com/HpIdBoB.gifv)
 
 GIF (http://i.imgur.com/HpldBoB.gif) created with [LiceCap](https://www.cockos.com/licecap/).
 
