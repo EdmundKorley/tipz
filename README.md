@@ -14,7 +14,7 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 * [x] UI animations.
-* [ ] Remembering the bill amount across app restarts (if <10mins).
+* [x] Remembering the bill amount across app restarts (if <10mins).
 * [ ] Using local-specific currency and currency thousands separators.
 * [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to start using the app. They just launch the app and start typing.
 
@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/HpldBoB.gif' title='Tipz Video Walkthrough' width='' alt='Tipz Video Walkthrough' />
+<img src='http://i.imgur.com/HpldBoB.gifv' title='Tipz Video Walkthrough' width='' alt='Tipz Video Walkthrough' />
 
 GIF (http://i.imgur.com/HpldBoB.gif) created with [LiceCap](https://www.cockos.com/licecap/).
 
