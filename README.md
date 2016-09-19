@@ -28,7 +28,9 @@ Here's a walkthrough of implemented user stories:
 
 ![Imgur](http://i.imgur.com/HpIdBoBh.gif)
 
-GIF (http://i.imgur.com/HpldBoB.gif) created with [LiceCap](https://www.cockos.com/licecap/).
+**Copy** and **paste** http://i.imgur.com/HpldBoB.gif into your browser if having problems visualizing GIF in README.md
+
+GIF created with [LiceCap](https://www.cockos.com/licecap/).
 
 ## Notes
 
