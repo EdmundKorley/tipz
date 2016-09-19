@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Imgur](http://i.imgur.com/HpIdBoBh.gif)
+![Imgur](http://i.imgur.com/HpIdBoB.gif)
 
 **Copy** and **paste** http://i.imgur.com/HpIdBoB.gif into your browser if having problems visualizing GIF in README.md
 
