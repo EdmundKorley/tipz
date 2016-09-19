@@ -10,11 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var billField: UITextField!
+    @IBOutlet public weak var billField: UITextField!
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
 
+    @IBOutlet weak var total2X: UILabel!
+    @IBOutlet weak var total3X: UILabel!
+    @IBOutlet weak var total4X: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -61,10 +65,16 @@ class ViewController: UIViewController {
         
         let bill = input ?? 0
         let tip = bill * tipPercentages[tipControl.selectedSegmentIndex]
-        let total = bill + tip
         
         tipLabel.text = String(format: "$%.2f", tip)
-        totalLabel.text = String(format: "$%.2f", total)
+        totalLabel.text = String(format: "$%.2f", tip + bill)
+        total2X.text = String(format: "$%.2f", (2 * tip) + bill)
+        total3X.text = String(format: "$%.2f", (3 * tip) + bill)
+        total4X.text = String(format: "$%.2f", (4 * tip) + bill)
+        
+        // Update the global we are keeping so that bill value is available in the next view
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        appDelegate.billBeingCalculated = bill
     }
 }
 

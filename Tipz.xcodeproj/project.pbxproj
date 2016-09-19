@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4B11EB2D1D8F7D7E00B74199 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B11EB2C1D8F7D7E00B74199 /* SettingsViewController.swift */; };
+		4B2C330A1D903C240024D7AB /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2C33091D903C240024D7AB /* CalculatorModel.swift */; };
 		4B7C00011D89E03200D81553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7CFFFF1D89E03200D81553 /* Main.storyboard */; };
 		4B7C00031D89E03200D81553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B7C00021D89E03200D81553 /* Assets.xcassets */; };
 		4B7C00061D89E03200D81553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7C00041D89E03200D81553 /* LaunchScreen.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		4B11EB2C1D8F7D7E00B74199 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
+		4B2C33091D903C240024D7AB /* CalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorModel.swift; sourceTree = "<group>"; };
 		4B7C00001D89E03200D81553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B7C00021D89E03200D81553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B7C00051D89E03200D81553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				4B7CFFFD1D89E03100D81553 /* ViewController.swift */,
 				4B7CFFFF1D89E03200D81553 /* Main.storyboard */,
 				4B7C00021D89E03200D81553 /* Assets.xcassets */,
+				4B2C33091D903C240024D7AB /* CalculatorModel.swift */,
 				4B7C00041D89E03200D81553 /* LaunchScreen.storyboard */,
 				4B7C00071D89E03200D81553 /* Info.plist */,
 			);
@@ -281,6 +284,7 @@
 				4B7CFFFE1D89E03100D81553 /* ViewController.swift in Sources */,
 				4B7CFFFC1D89E03100D81553 /* AppDelegate.swift in Sources */,
 				4B11EB2D1D8F7D7E00B74199 /* SettingsViewController.swift in Sources */,
+				4B2C330A1D903C240024D7AB /* CalculatorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
